@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Header Parser microservice</title>
+  <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+  <script src="/public/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class = "container">
+    <h1>Header Parser Microservice</h1>
+    <p>Full stack Javascript app built with node.js, express.js, and Bootstrap by <a href="https://github.com/eeseesee">ECC</a></p>
+    <blockquote>
+      User stories:
+      <ul>1) I can get the IP address, language and operating system for my browser.</ul>
+    </blockquote>
+    <h3>Example usage:</h3>
+    <code>https://ecc-headerparser-ms.herokuapp.com/api/whoami</code>
+    <h3>Example output:</h3>
+    <code>
+      {
+        "ipaddress": "67.242.86.108",
+        "language":"en-US",
+        "software":"Macintosh; Intel Mac OS X 10_11_3"}
+      }
+    </code>
+  </div>
+</body>
