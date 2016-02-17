@@ -5,7 +5,6 @@ function ServiceHandler () {
     // To see the header in its entirety, uncomment the following line
     //res.send(JSON.stringify(req.headers));
 
-
     // initialize returns as null
     var ipaddress = null,
         language = null,
